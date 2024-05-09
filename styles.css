@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+.btn{
+	display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+button{
+	height:80px;
+}
+#cal{
+	width:90%;
+	
+}
+
+input{
+	height:30px;
+	width:100%
+	
+}
