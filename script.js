@@ -12,13 +12,11 @@ bottons.forEach((button)=>{
 
 		else if(button.id==='ans'){
 
-			try{
+			
 				input.value=eval(input.value)
-			}
-			catch(error){
-				
-			}
+			
 		}
+			
 
 		else{
 			input.value+=button.textContent
