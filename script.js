@@ -19,7 +19,7 @@ bottons.forEach((button)=>{
 			
 
 		else{
-			input.value+=button.textContent
+			input.value+=button.innerText
 		}
 
 		
